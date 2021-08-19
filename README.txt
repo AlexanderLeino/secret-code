@@ -18,3 +18,4 @@ My biggest hurdle was assigning values into the newArray that the user selected.
 but it seemed pretty simple after I found out I could concat arrays and then assigned the values I took from one array and add them to the other. by doing 
 -->newArray = newArray.concat(variable that was assigned the array we are concating from)
 
+Sorry had to reupload because my other repos git pages wasnt working correctly!!!!!
