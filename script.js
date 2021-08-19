@@ -18,7 +18,7 @@ var specialCharacters = ['!', '#', '$', '%', '&', '(', ')', ,'*', '+', ',' ,'-',
 function generatePassword() {
   do {numberOfCharacters = prompt ('Pick a number between 8-128 and that will represent how the password you will generate will be.')
 
-} while(numberOfCharacters < 8 || numberOfCharacters > 129)
+} while(numberOfCharacters < 8 || numberOfCharacters > 128)
   choiceUpperCaseLetters = confirm('Would you like your password to contain uppercase letters?')
   choiceLowerCaseLetters = confirm('Would you like your password to contain lowercase letters?')
   choiceSpecialCharacters = confirm('Would you like your password to contain special characters?')
